@@ -1,0 +1,2 @@
+#For å ta skjermbilder, krever xclip
+spectacle -br -o /tmp/copyshot.png && xclip -sel clip -t image/png /tmp/copyshot.png; xclip -selection clipboard -t image/png -i /tmp/copyshot.png
